@@ -17,7 +17,11 @@
       "Bash(PORT=3001 \"/c/Program Files/nodejs/npx.cmd\" next start -p 3001)",
       "Bash(\"/c/Program Files/Git/cmd/git.exe\" init -b main)",
       "Bash(\"/c/Program Files/Git/cmd/git.exe\" add -A)",
-      "Bash(\"/c/Program Files/Git/cmd/git.exe\" -c user.email=officialchillahmayne@gmail.com -c user.name=\"Vero Holland\" commit -m \"feat: initial Vero Holland site build\")"
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" -c user.email=officialchillahmayne@gmail.com -c user.name=\"Vero Holland\" commit -m \"feat: initial Vero Holland site build\")",
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" remote add origin https://github.com/sdiazj80/vero-holland.git)",
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" push -u origin main)",
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" -c user.email=officialchillahmayne@gmail.com -c user.name=\"Vero Holland\" commit -m \"chore: bump next to 15.5.7 \\(CVE-2025-66478\\)\")",
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" push)"
     ]
   }
 }
