@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx *)",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" --version)",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" --version)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(cmd.exe *)",
+      "Bash(/c/Windows/System32/cmd.exe /c \"mkdir C:\\\\vero-holland\\\\public\\\\assets\")",
+      "Bash(/c/Windows/System32/cmd.exe /c \"mkdir C:\\\\vero-holland\\\\public\\\\videos\")",
+      "Bash(MSYS_NO_PATHCONV=1 /c/Windows/System32/cmd.exe *)",
+      "Bash(/c/Program Files/nodejs/node.exe *)",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" install --no-audit --no-fund --loglevel=error)",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" run build)",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" run start)",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" -e \"fetch\\('http://localhost:3000'\\).then\\(r=>{console.log\\('status:',r.status\\);return r.text\\(\\)}\\).then\\(t=>console.log\\('title present:', t.includes\\('Vero'\\), 'video tag:', t.includes\\('<video'\\), 'hero image:', t.includes\\('black-dress'\\)\\)\\).catch\\(e=>console.error\\('ERR',e.message\\)\\)\")",
+      "Bash(PORT=3001 \"/c/Program Files/nodejs/npx.cmd\" next start -p 3001)",
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" init -b main)",
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" add -A)",
+      "Bash(\"/c/Program Files/Git/cmd/git.exe\" -c user.email=officialchillahmayne@gmail.com -c user.name=\"Vero Holland\" commit -m \"feat: initial Vero Holland site build\")"
+    ]
+  }
+}
