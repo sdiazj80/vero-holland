@@ -15,11 +15,11 @@ export default function EventHighlight() {
             Booty Brunch <br />& <span className="italic gradient-text">Bubbly™</span>
           </h2>
           <p className="mt-5 max-w-md text-white/70 leading-relaxed">
-            The workout. The brunch. The bubbly. The women. A signature event series
-            built for the girls who like to move hard and celebrate harder.
+            High-energy fitness events that sell out fast. Secure your spot
+            before it's gone.
           </p>
           <div className="mt-8 flex gap-3 flex-wrap">
-            <Link href="/events" className="btn-rose">See Upcoming Events</Link>
+            <Link href="/events" className="btn-rose">Reserve Your Spot →</Link>
             <a
               href="https://instagram.com/booty.brunch.bubbly"
               target="_blank" rel="noopener"

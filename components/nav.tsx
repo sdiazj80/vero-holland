@@ -40,9 +40,14 @@ export default function Nav() {
           ))}
         </nav>
 
-        <Link href="/coaching#apply" className="hidden md:inline-flex btn-rose text-sm">
-          Apply for Coaching
-        </Link>
+        <div className="hidden md:flex items-center gap-2">
+          <Link href="/coaching#apply" className="text-sm font-medium text-ink/70 hover:text-rose-600 transition px-3">
+            Apply
+          </Link>
+          <Link href="/events" className="btn-rose text-sm">
+            Join the Next Session
+          </Link>
+        </div>
 
         <button
           aria-label="Toggle menu"
@@ -69,9 +74,16 @@ export default function Nav() {
               </Link>
             ))}
             <Link
-              href="/coaching#apply"
+              href="/events"
               onClick={() => setOpen(false)}
               className="btn-rose mt-2 self-start"
+            >
+              Join the Next Session
+            </Link>
+            <Link
+              href="/coaching#apply"
+              onClick={() => setOpen(false)}
+              className="btn-ghost self-start"
             >
               Apply for Coaching
             </Link>

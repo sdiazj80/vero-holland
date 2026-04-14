@@ -25,17 +25,14 @@ export default function VideoSection() {
         <div className="max-w-3xl text-white">
           <p className="eyebrow text-rose-300">Booty Brunch & Bubbly™</p>
           <h2 className="mt-4 font-display text-4xl sm:text-5xl md:text-7xl text-white leading-[1] uppercase">
-            This isn't a workout.<br />
-            This is a <span className="italic gradient-text">movement.</span>
+            THIS ISN'T A WORKOUT.<br />
+            THIS IS A <span className="italic gradient-text">MOVEMENT.</span>
           </h2>
           <p className="mt-6 text-white/85 max-w-xl text-lg">
             High-energy classes. Real results. A community that pushes you.
           </p>
           <div className="mt-8 flex gap-3 flex-wrap">
-            <Link href="/events" className="btn-rose">Join the Next Session →</Link>
-            <Link href="/coaching#apply" className="btn-ghost border-white/50 text-white hover:bg-white hover:text-ink">
-              Apply for Coaching
-            </Link>
+            <Link href="/events" className="btn-rose">JOIN THE NEXT SESSION →</Link>
           </div>
         </div>
       </div>

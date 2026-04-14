@@ -10,18 +10,17 @@ export default function Hero() {
 
       <div className="container-x relative pt-12 pb-20 md:pt-20 md:pb-28 grid lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-7">
-          <p className="eyebrow reveal">Vero Fitness · est. Houston</p>
+          <p className="eyebrow reveal">Vero Fitness · San Antonio</p>
           <h1 className="reveal reveal-delay-1 mt-4 text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] leading-[0.95]">
-            Build the body. <br />
-            Own the <span className="gradient-text italic">confidence.</span>
+            San Antonio's Most <span className="gradient-text italic">Addictive</span> Fitness Experience
           </h1>
           <p className="reveal reveal-delay-2 mt-6 max-w-xl text-lg text-ink/70 leading-relaxed">
-            Premium 1:1 coaching for women who are done playing small. Strength,
-            sculpt, and a community that actually shows up — led by Vero Holland.
+            Group workouts, real transformations, and a community that actually
+            shows up. This isn't just fitness — it's an experience.
           </p>
           <div className="reveal reveal-delay-3 mt-8 flex flex-wrap gap-3">
-            <Link href="/coaching#apply" className="btn-rose">
-              Apply for Coaching →
+            <Link href="/events" className="btn-rose">
+              Join the Next Session →
             </Link>
             <Link href="/results" className="btn-ghost">See Results</Link>
           </div>
